@@ -2,7 +2,8 @@
 
 <html>
 <head>
-// COPY/PASTE SCRIPT THIS INTO HEAD OF STORE.PHP
+// COPY/PASTE THIS SCRIPT INTO MAIN PAGE IN <head>(eg. Store.php)
+
 <script>
 function show(shown, hidden) {
   document.getElementById(shown).style.display='block';
@@ -10,28 +11,32 @@ function show(shown, hidden) {
   return false;
 }
 </script>
+
 </head>
+
 <body>
 // USE DIV TO DIVIDE PAGES
   <div id="Page1">
   
 // INSERT ALL CODE FROM STORE.PHP
  
-// FOR ANY LINKS CHANGE href TO "#" AND INSERT onclick="return show('Page2','Page1'). 
+// FOR ANY LINKS CHANGE href TO "#" AND INSERT onclick="return show('Page2','Page1'). CHANGE PAGE2/PAGE1 DEPENDING ON WHAT PAGE YOU
+// ARE ON AND WHAT PAGE YOU WANT TO GO TO.
 
     <a href="#" onclick="return show('Page2','Page1');"> </a>
     
   </div>
 
-// FOR NEXT PAGE USE
-  <div id="Page2" style="display:none">
+// FOR 
+  <div id="Page2">
  
- //INSERT ALL CODE FROM MOUSE-DETAIL
+ //INSERT ALL CODE FROM PAGE IT GO TO (eg. Mouse-detail)
  
- // FOR ANY LINKS CHANGE href TO "#" AND INSERT onclick="return show('Page2','Page1'). Change page2, page1 depending on what page
- // you want to go to.
+ // FOR ANY LINKS CHANGE href TO "#" AND INSERT onclick="return show('Page2','Page1'). CHANGE PAGE2/PAGE1 DEPENDING ON WHAT PAGE YOU
+// ARE ON AND WHAT PAGE YOU WANT TO GO TO.
  
     <a href="#" onclick="return show('Page1','Page2');"> </a>
+    
   </div>
 
 </body>
