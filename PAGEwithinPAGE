@@ -20,7 +20,7 @@ function show(shown, hidden) {
   
 // INSERT ALL CODE FROM STORE.PHP
  
-// FOR ANY LINKS CHANGE href TO "#" AND INSERT onclick="return show('Page2','Page1'). CHANGE PAGE2/PAGE1 DEPENDING ON WHAT PAGE YOU
+// FOR ANY <a> LINKS CHANGE href TO "#" AND INSERT onclick="return show('Page2','Page1'). CHANGE PAGE2/PAGE1 DEPENDING ON WHAT PAGE YOU
 // ARE ON AND WHAT PAGE YOU WANT TO GO TO.
 
     <a href="#" onclick="return show('Page2','Page1');"> </a>
