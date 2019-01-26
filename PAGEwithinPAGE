@@ -2,7 +2,7 @@
 
 <html>
 <head>
-// COPY/PASTE THIS SCRIPT INTO MAIN PAGE IN <head>(eg. Store.php)
+// COPY/PASTE THIS SCRIPT INTO THE ONE PHP FILE YOU WANT TO HAVE ALL PAGES IN. PUT IN <head>(eg. Store.php)
 
 <script>
 function show(shown, hidden) {
