@@ -27,7 +27,7 @@ function show(shown, hidden) {
     
   </div>
 
-// FOR 
+// USE DIV TO DIVIDE PAGES
   <div id="Page2">
  
  //INSERT ALL CODE FROM PAGE IT GO TO (eg. Mouse-detail)
